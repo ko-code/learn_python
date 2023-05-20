@@ -66,8 +66,8 @@ print(lista)
 (9, 1, 9, 81, 729, 6561, 59049),
 (10, 1, 10, 100, 1000, 10000, 100000)]
 '''
-list_of_tuples = [(i, i*i) for i in range(11)]
-print(list_of_tuples)
+list_of_tuples = [(i, 1, i, i*i, i**3, i**4, i**5) for i in range(11)]
+print(list_of_tuples) 
 
 
 
